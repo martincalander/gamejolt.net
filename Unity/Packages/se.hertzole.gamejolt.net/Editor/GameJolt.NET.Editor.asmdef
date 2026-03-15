@@ -12,7 +12,9 @@
     "overrideReferences": true,
     "precompiledReferences": [],
     "autoReferenced": true,
-    "defineConstraints": [],
+    "defineConstraints": [
+        "!DISABLE_GAMEJOLT"
+    ],
     "versionDefines": [],
     "noEngineReferences": false
 }

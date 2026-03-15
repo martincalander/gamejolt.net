@@ -21,7 +21,8 @@
     ],
     "autoReferenced": true,
     "defineConstraints": [
-        "UNITY_INCLUDE_TESTS"
+        "UNITY_INCLUDE_TESTS",
+        "!DISABLE_GAMEJOLT"
     ],
     "versionDefines": [],
     "noEngineReferences": false

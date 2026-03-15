@@ -59,6 +59,10 @@ GameJoltAPI.Shutdown();
 > [!IMPORTANT]
 > Sessions are not handled automatically for you in the base API. You need to open and close them manually. See [sessions](#sessions)
 
+### Disable in Unity
+
+If you want to disable the Unity package completely, add `DISABLE_GAMEJOLT` to your Scripting Define Symbols. All asmdefs in this package are excluded when that define is present.
+
 ### Authenticate
 
 For most calls, you need to be authenticated. If you're not authenticated and try to call an authenticated method, you will get an `GameJoltAuthorizationException` in the result.
